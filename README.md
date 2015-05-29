@@ -19,7 +19,7 @@ Includes:
 3. Run `grunt build` to build your assets
 4. Start the server
     - **Locally** Run `nodemon server.js`
-    - **Server** Run npm start
+    - **Server** Run `npm start`
 
 ## Assests
 Assets are named by the name value in the `package.json` file.
@@ -35,4 +35,11 @@ Grunt watch has been setup to watch the `/src` directory and will by default, ru
 
 ```
 grunt watch
+```
+
+## Testing
+[Mocha](http://mochajs.org/) with [SuperTest](https://www.npmjs.com/package/supertest) is setup as a basic test sweet. use `npm test` to run the defined tests in the `/tests` directory.
+
+```
+npm test
 ```
