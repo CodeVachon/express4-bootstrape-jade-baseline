@@ -1,0 +1,34 @@
+doctype
+html(leng="en")
+    head
+        title!= settings.title
+    
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+    
+        each cssPath in settings.cssFiles
+            link(rel="stylesheet", href= cssPath )
+    body
+        nav.navbar.navbar-inverse.navbar-static-top
+            .container
+                .navbar-header
+                    button(type="button", data-toggle="collapse", data-target="#nav").navbar-toggle.collapsed
+                        span.sr-only Toggle navigation
+                        each val in [1, 2, 3]
+                            span.icon-bar
+                    a(href="/").navbar-brand!= settings.title
+                .collapse.navbar-collapse#nav
+                    ul.nav.navbar-nav
+                        li.active: a(href="#").home Home
+        
+        .container
+            block content
+                h1 Oops! No content...
+                
+        footer
+            .container
+                p &copy; #{settings.title} !{ new Date().getFullYear() }
+
+    each jsPath in settings.jsFiles
+        script(src=jsPath)

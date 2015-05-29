@@ -1,0 +1,12 @@
+extends _layout
+
+if !error 
+    - var error = new Error("Forgot to pass in Error");
+
+block content
+    .jumbotron.text-center
+        h1!= error.status
+        if error.message
+            p.lead!= error.message
+        if error.details
+            p!= error.details

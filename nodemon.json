@@ -1,0 +1,7 @@
+{
+    "verbose": true,
+    "ignore": ["tests/*","public/*","*.log",".git/*","node_modules/*","src/*","views/*"],
+    "env": {
+        "NODE_ENV": "dev"
+    }
+}
