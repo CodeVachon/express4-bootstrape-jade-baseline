@@ -1,6 +1,6 @@
 {
   "name": "express4-bootstrape-jade-baseline",
-  "version": "v0.0.1",
+  "version": "v0.0.2",
   "description": "A jumping off point for an Express Site",
   "main": "server.js",
   "scripts": {

@@ -29,7 +29,7 @@ app.set('view engine', 'jade');
 
 app.set("title", pkg.name || "No Title Set");
 app.set("cssFiles", ["/css/"+pkg.name+".min.css"]);
-app.set("jsFiles", ["/js/bootstrap.min.css", "/js/"+pkg.name+".min.css"]);
+app.set("jsFiles", ["/js/bootstrap.min.js", "/js/"+pkg.name+".min.js"]);
 
 
 /**
