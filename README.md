@@ -1,6 +1,8 @@
 Express4 Bootstrape Jade Baseline
 =================================
 
+[![Join the chat at https://gitter.im/liaodrake/express4-bootstrape-jade-baseline](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/liaodrake/express4-bootstrape-jade-baseline?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is a Jump Off Point for Express 4 Sites
 
 Includes:
