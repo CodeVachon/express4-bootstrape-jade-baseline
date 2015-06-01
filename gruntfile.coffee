@@ -63,6 +63,8 @@ module.exports = (grunt) ->
             less:
                 files: ['src<%= path.sep %>**<%= path.sep %>*.less']
                 tasks: ['less:compile']
+                options:
+                    spawn: false
 
     grunt.loadNpmTasks "grunt-contrib-watch"
     grunt.loadNpmTasks "grunt-contrib-jshint"

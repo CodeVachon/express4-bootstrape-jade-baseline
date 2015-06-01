@@ -7,9 +7,10 @@ This is a Jump Off Point for Express 4 Sites
 
 Includes:
 
-- [Express 4.12.x](http://expressjs.com/)
+- [Express 4.x](http://expressjs.com/)
+- [morgan 1.x](https://github.com/expressjs/morgan)
+- [Jade 1.x](http://jade-lang.com/)
 - [Bootstrap 3.3.4](http://getbootstrap.com/)
-- [Jade](http://jade-lang.com/)
 - [Grunt](http://gruntjs.com/)
 - [CoffeeScript](http://coffeescript.org/)
 - [LESS](http://lesscss.org/)
